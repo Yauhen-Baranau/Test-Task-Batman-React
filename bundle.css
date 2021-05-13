@@ -1,0 +1,58 @@
+.qqq {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 20px;
+    height: 50px;
+    color: white;
+}
+
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+
+.Header__input{
+    padding: 0px;
+    display: flex;
+}
+
+.Header__input-back{
+    display: flex;
+    align-items: center;
+}
+
+.Header__input-back{
+    font-size: 40px;
+   margin-right: 40px;
+}
+
+.Header__input-back:hover {
+    cursor: pointer;
+}.Content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}.ContentItem {
+   text-align: center;
+}
+
+.ContentItem__img {
+    margin-top:20px;
+    width: 200px;
+}
+
+.ContentItem img:hover {
+    cursor: pointer;
+}
+.ItemDemo {
+    padding-top: 20px;
+    text-align: center;
+}
+/*# sourceMappingURL=bundle.css.map*/

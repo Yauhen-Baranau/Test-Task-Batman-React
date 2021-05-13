@@ -1,0 +1,34 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 20px;
+    height: 50px;
+    color: white;
+}
+
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+
+.Header__input{
+    padding: 0px;
+    display: flex;
+}
+
+.Header__input-back{
+    display: flex;
+    align-items: center;
+}
+
+.Header__input-back{
+    font-size: 40px;
+   margin-right: 40px;
+}
+
+.Header__input-back:hover {
+    cursor: pointer;
+}

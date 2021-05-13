@@ -1,0 +1,12 @@
+.ContentItem {
+   text-align: center;
+}
+
+.ContentItem__img {
+    margin-top:20px;
+    width: 200px;
+}
+
+.ContentItem img:hover {
+    cursor: pointer;
+}
